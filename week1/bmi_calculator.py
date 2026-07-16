@@ -7,7 +7,7 @@ height = round(float(input("Enter your height in m: ")), 2)
 bmi = weight / (height**2)
 
 # Print BMI value
-print(f"Your BMI value is: {round(bmi,2)}")  # you can do {bmi:.2f}
+print(f"Your BMI value is: {round(bmi, 2)}")  # you can do {bmi:.2f}
 
 # category status based on BMI value
 if bmi < 18.5:
